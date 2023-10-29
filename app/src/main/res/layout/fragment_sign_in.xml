@@ -133,9 +133,10 @@
             android:layout_marginEnd="8dp"
             android:text="or"
             android:textColor="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@+id/tv_dont_have_an_account"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="565dp"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_btn"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -144,7 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="80dp"
+            android:layout_marginBottom="56dp"
             android:text="Don't have an account? Sign up!"
             android:textColor="@color/colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
